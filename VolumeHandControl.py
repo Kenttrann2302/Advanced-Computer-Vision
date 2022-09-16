@@ -77,4 +77,4 @@ while True:
                 1, (255, 0, 0), 3)
 
     cv2.imshow('Img', img)
-    cv2.waitKey(1)
+    cv2.waitKey(0)
