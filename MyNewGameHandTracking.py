@@ -6,7 +6,7 @@ import HandTrackingModule as htm
 
 pTime = 0
 cTime = 0
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 detector = htm.handDetector()
 while True:
     success, img = cap.read()
@@ -23,4 +23,4 @@ while True:
                 (255, 0, 255), 3)
 
     cv2.imshow("Image", img)
-    cv2.waitKey(1)
+    cv2.waitKey(0)
